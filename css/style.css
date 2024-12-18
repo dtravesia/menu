@@ -1,0 +1,459 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    overflow: hidden;
+    font-family: "Montserrat", sans-serif;
+}
+
+.container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    transition: transform 0.3s ease;
+}
+
+.screen {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: transform 0.3s ease;
+    display: none;
+
+}
+
+.arrow {
+    position: absolute;
+    font-size: 3rem;
+    color: white;
+    cursor: pointer;
+    z-index: 4;
+    user-select: none;
+    transition: opacity 0.3s ease;
+}
+
+.arrow-right {
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 34px;
+}
+
+.arrow-left {
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 34px;
+}
+
+/*primera pantalla*/
+.first_screen {
+
+    background-image: linear-gradient(rgba(2, 51, 30, 0.9), rgba(0, 0, 0, 0.9)), url('../img/fondo_firstscreen.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.first_screen_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.first_screen_content img {
+    width: 30%;
+}
+
+/*segunda pantalla*/
+.second_screen {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.96)), url('../img/fondo_second.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+}
+
+.header_funcionamiento {
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.left-image {
+    width: 80px;
+    margin: 20px;
+}
+
+.right-image {
+    width: 220px;
+    margin: 20px;
+}
+
+.content_funcionamiento {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top:200px;
+}
+
+.content_funcionamiento {
+    color: #fff;
+    font-weight: lighter;
+    font-size: 2.5rem;
+    display: grid;
+    place-items: center;
+    height: auto;
+    text-align: center;
+    
+}
+
+.content_funcionamiento p {
+    width: 100%;
+    left: 0;
+    
+}
+
+.image_funcionamiento {
+    width: 400px;
+}
+.tlt_nav{
+    line-height: 1.1;
+    margin: 0px;
+    padding: 0px;
+}
+.cards {
+    width: 50%;
+    padding: 80px 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(200px, 100%), 1fr));
+    gap: 2rem;
+    padding-top: 0px;
+    padding-bottom: 20px;
+}
+
+.cards__item {
+    padding: 2rem 1.5rem;
+    border: 2px solid;
+    color: #b8b0b0;
+}
+
+.cards__title {
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-bottom: .6rem;
+}
+
+.cards__info {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+.cards__info span {
+    font-weight: bold;
+}
+
+.cont_img img {
+    width: 70px;
+}
+
+
+/*tercera pantalla*/
+
+.third_screen {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.86)), url('../img/fondo_entrada.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+}
+
+.content_entrada {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start; 
+    letter-spacing:0;
+    z-index: 1;
+    line-height: 0.8;
+    height: 400px;
+    padding-left: 20px;
+    padding-bottom: 20px;
+}
+
+.title_entr {
+    font-family: "Londrina Sketch", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 5rem;
+    color: #fff;
+    margin: 0; /* Elimina el margen entre los <p> */
+    padding: 0; /* Elimina el padding */
+    display: block;
+
+}
+
+/*cuarta pantalla*/
+.header_back{
+    display: flex; /* Usa flexbox para alinear los elementos */
+    justify-content: space-between; /* Distribuye el espacio entre los elementos */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+    width: 100%; /* Ocupa todo el ancho del contenedor */
+    padding: 10px; /* Añade un poco de padding al contenedor */
+    
+}
+
+.four_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_entrada2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+.content_entrada_one{
+    width: 100%;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 110px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding-bottom:30px;
+}
+.conten-header-entrdas p{
+    color: #fff;
+    font-family: "Londrina Sketch", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.2rem;
+}
+
+.img_logo {
+    width: 70px;
+    margin: 20px;
+    padding-top: 20px;
+}
+
+.cont_title{
+    display: flex;
+    flex-direction: column; /* Hacemos que los elementos p estén uno debajo de otro */
+    align-items: flex-start; /* Alineamos el texto a la izquierda */
+    line-height: 0.8;
+    padding-top: 30px;
+   
+}
+.text_icon{
+    color: #fff;
+    font-family: "Londrina Sketch", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 2.9rem;
+    padding-bottom: 0px;
+    margin-bottom: 0px;
+}
+
+.text-color{
+    color: #c19d68;
+}
+
+.content_entradas{
+   width: 100%;
+   position: absolute;
+   left: 0;
+   top: 130px;
+   display: flex;
+   flex-direction: column; /* Cambiar a columna para apilar los elementos uno debajo del otro */
+   align-items: flex-start;
+   padding: 0 10px;
+   color: #fff;
+   
+}
+.entradas_c{
+    width: 100% !important;
+    border-bottom: 2px dotted #ffffff70;
+    padding-bottom: 10px;
+    margin-bottom: 10px; /* Añadir un pequeño margen entre las entradas */
+   
+   
+}
+
+.conten-header-entradas {
+    display: flex;
+    flex-direction: column; /* Los elementos dentro de este contenedor estarán apilados verticalmente */
+}
+.tlt_menu{
+    margin: 0;
+    color: #c19d68;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+}
+.text_menu{
+    font-size: .6rem;
+    max-width: 250px;
+}
+
+.tlt_price{
+    color: #c19d68;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    font-weight: bold;
+    min-width: 450px;
+}
+
+.row{
+    width: 98% !important;
+    
+}
+
+/*quinta pantalla*/
+.five_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.86)), url('../img/fondo_compartir.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+/*sexta pantalla*/
+.six_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_compartir2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+
+/*quinta pantalla*/
+.seven_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.86)), url('../img/fondo_fuertes.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.eigth_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_fuertes2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.nine_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_fuertes3.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.ten_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.86)), url('../img/fondo_cocteles.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.eleven_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_cocteles2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+.twelve_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondp_cocteles3.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.thirteen_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondp_cocteles4.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+.fourteen_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondogaseosas.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.fifteen_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_firstscreen.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.last_screen_content {
+    display: block;  /* Contenedor en bloque (por defecto) */
+    text-align: center;  /* Centra los enlaces dentro del contenedor */
+    
+
+}
+
+a{
+    background-color: #c19d68;
+    display: block;  /* Hace que cada enlace sea un bloque */
+    font-size: 2rem;  /* Tamaño de fuente */
+    color: #fff;  /* Color del texto */
+    text-decoration: none !important;  /* Elimina el subrayado de los enlaces */
+    font-weight: bold;  /* Hace el texto más destacado */
+    margin-bottom: 10px;  /* Espacio entre los enlaces */
+    transition: color 0.3s ease, transform 0.3s ease;  /* Agrega transición suave */
+    height: 60px;
+    text-align: center;
+    width: 300px;
+    border-radius: 10px;
+    padding-top: 8px;
+    color: #000 !important;
+}
+
+.last_screen_content a:hover {
+   
+}
+/*resposive*/
+@media (max-width: 900px) {
+    .first_screen_content img {
+        width: 50%;
+    }
+
+    .cont_img img {
+        width: 50px;
+    }
+
+
+}
