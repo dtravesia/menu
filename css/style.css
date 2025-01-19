@@ -54,14 +54,7 @@
 }
 
 /*primera pantalla*/
-.first_screen {
 
-    background-image: linear-gradient(rgba(2, 51, 30, 0.9), rgba(0, 0, 0, 0.9)), url('../img/fondo_firstscreen.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1;
-}
 
 .first_screen_content {
     display: flex;
@@ -75,14 +68,7 @@
 }
 
 /*segunda pantalla*/
-.second_screen {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.96)), url('../img/fondo_second.png');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1;
 
-}
 
 .header_funcionamiento {
     width: 100%;
@@ -176,14 +162,8 @@
 
 /*tercera pantalla*/
 
-.third_screen {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.86)), url('../img/fondo_entrada.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1;
 
-}
+
 
 .content_entrada {
     width: 100%;
@@ -224,13 +204,8 @@
     
 }
 
-.four_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_entrada2.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1;
-}
+
+
 .content_entrada_one{
     width: 100%;
     height: 100px;
@@ -328,8 +303,80 @@
     
 }
 
+
+
+
 /*quinta pantalla*/
+
+
+/* .seven_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.86)), url('../img/fondo_fuertes3.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+} */
+.first_screen {
+
+    background-image: linear-gradient(rgba(2, 51, 30, 0.9), rgba(0, 0, 0, 0.9)), url('../img/fondo_firstscreen.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+.second_screen {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.96)), url('../img/fondo_second.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+}
+
+.third_screen {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.86)), url('../img/desayuno2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+}
+.four_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/desayuno1.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
 .five_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/desayuno1.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+
+.six_screen {
+    background-image: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, 0.89)), url('../img/fondo_entrada.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+
+} 
+
+.seven_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_entrada2.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+
+.eigth_screen{
     background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.86)), url('../img/fondo_fuertes.JPG');
     background-size: cover;
     background-repeat: no-repeat;
@@ -337,35 +384,8 @@
     z-index: 1;
 }
 
-/*sexta pantalla*/
-.six_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, 0.89)), url('../img/fondo_fuertes2.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1;
-}
-
-
-/*quinta pantalla*/
-.seven_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.66), rgba(0, 0, 0, 0.86)), url('../img/fondo_fuertes3.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1;
-}
-
-.eigth_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, 0.89)), url('../img/fondo_compartir.JPG');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1;
-}
-
 .nine_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, 0.89)), url('../img/fondo_compartir2.JPG');
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.89)), url('../img/fondo_fuertes2.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -373,7 +393,7 @@
 }
 
 .ten_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.56), rgba(0, 0, 0, 0.86)), url('../img/fondo_cocteles.JPG');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.86)), url('../img/fondo_fuertes3.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -381,14 +401,14 @@
 }
 
 .eleven_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_cocteles2.JPG');
+    background-image: linear-gradient(rgba(0, 0, 0, .56), rgba(0, 0, 0, 0.99)), url('../img/fondo_compartir.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 1;
 }
 .twelve_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondp_cocteles3.JPG');
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_compartir2.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -396,14 +416,14 @@
 }
 
 .thirteen_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, .65), rgba(0, 0, 0, 0.89)), url('../img/fondp_cocteles4.JPG');
+    background-image: linear-gradient(rgba(0, 0, 0, .56), rgba(0, 0, 0, 0.89)), url('../img/fondo_cocteles.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 1;
 }
 .fourteen_screen{
-    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.89)), url('../img/fondogaseosas.JPG');
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.89)), url('../img/fondo_cocteles2.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -411,12 +431,45 @@
 }
 
 .fifteen_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondp_cocteles3.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.fifteen_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondp_cocteles4.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.sixteen_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondp_cocteles4.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.seventeen_screen{
+    background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondogaseosas.JPG');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    z-index: 1;
+}
+
+.eigthteen_screen{
     background-image: linear-gradient(rgba(0, 0, 0, .75), rgba(0, 0, 0, 0.99)), url('../img/fondo_firstscreen.JPG');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
     z-index: 1;
 }
+
 
 .last_screen_content {
     display: block;  /* Contenedor en bloque (por defecto) */
