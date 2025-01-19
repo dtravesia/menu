@@ -17,10 +17,13 @@ const twelveScreen = document.getElementById("twelve_screen");
 const thirteenScreen = document.getElementById("thirteen_screen");
 const fourteenScreen = document.getElementById("fourteen_screen");
 const fifteenScreen = document.getElementById("fifteen_screen");
-
+const sixteenScreen = document.getElementById("sixteen_screen");
+const seventeenScreen = document.getElementById("seventeen_screen");
+const eightenScreen = document.getElementById("eigthteen_screen");
 // Lista de pantallas
 const screens = [firstScreen, secondScreen, thirdScreen,fourScreen,fiveScreen,sixScreen,sevenScreen,eigthScreen,
-    nineScreen,tenScreen,elevenScreen,twelveScreen,thirteenScreen,fourteenScreen,fifteenScreen
+    nineScreen,tenScreen,elevenScreen,twelveScreen,thirteenScreen,fourteenScreen,fifteenScreen,sixteenScreen,
+    seventeenScreen,eightenScreen
 ];
 
 //obtenemos los botones flechas
